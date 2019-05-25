@@ -56,6 +56,7 @@ begin
   ShellExecute(Handle, nil, 'cmd.exe', PChar(s), nil, SW_HIDE);}
 end;
 
+//Выделяем все строки списка
 procedure TForm1.Button3Click(Sender: TObject);
 var i:integer;
 begin
@@ -63,6 +64,7 @@ begin
     ListBox1.Selected[i]:=True;
 end;
 
+//Снимаем выделение со всех строк списка
 procedure TForm1.Button4Click(Sender: TObject);
 var i:integer;
 begin
