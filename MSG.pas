@@ -81,7 +81,14 @@ begin
   //Выгружаем сетевое окружение в файл
   WinExec(PAnsiChar('cmd /c net view>msg.cfg'),SW_HIDE);
   //Загрузка из сгенерированного файла строк
-  ListBox1.Items.LoadFromFile('msg.cfg');
+  //Если файл ещё не успел создасться, ожидаем секунду и пробуем снова
+  if FileExists('msg.cfg') then
+    ListBox1.Items.LoadFromFile('msg.cfg')
+  Else
+  Begin
+    Sleep(1000);
+    ListBox1.Items.LoadFromFile('msg.cfg')
+  End;
   //Удаляем первые три строки, они лишние
   ListBox1.Items.Delete(0);
   ListBox1.Items.Delete(0);

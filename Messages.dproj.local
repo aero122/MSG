@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.611,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\MSG.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.048,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\Messages.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.611,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\MSG.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.472,=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.895,=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.611,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\MSG.dfm=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.472,=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.611,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\MSG.pas=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.048,C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\MSG\Messages.dproj=C:\Users\Aero_Asta\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
