@@ -79,11 +79,4 @@ object Form1: TForm1
     TabOrder = 5
     OnClick = Button4Click
   end
-  object ProgressBar1: TProgressBar
-    Left = 8
-    Top = 263
-    Width = 145
-    Height = 17
-    TabOrder = 6
-  end
 end
